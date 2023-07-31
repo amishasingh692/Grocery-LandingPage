@@ -1,0 +1,283 @@
+
+@import  url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .section nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    left: 0;
+    right: 0;
+    background: rgb(38 173 36 / 66%);
+    padding-bottom: 1vh;
+    font-size: xx-large;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.section nav .logo img{
+width: 100px;
+height: 10%;
+cursor: pointer;
+margin-right: 500;
+
+}
+.Text{
+    color: #b63636;
+    position: absolute;
+    z-index: 2;
+    font-size: xx-large;
+    font-size: xxx-large;
+    top: 9vh;
+    left: 19vw;
+    text-shadow: 2px 2px 0px #ffffff, -2px -2px 0px #fff, 2px -2px 0px #fff, -2px 2px 0px #fff;
+    font-family: 'Borel', cursive;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block
+}
+.section nav ul{
+    list-style :none;
+}
+
+ .section nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.section nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: bold;
+}
+.section nav ul li a:hover{
+    color: #fff;
+    border-bottom: 1px solid white;
+}
+
+.im{
+ background: url(back4.jpg);
+ display: flex;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    image-rendering: auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.cricle{
+    width: 45%;
+    background-color: rgb(36 173 77 / 43%);
+    height: 99%;
+    border-radius: 50%;
+    overflow: overlay;
+    transform: translateX(-10vw);
+    transform: translateY(10px);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: cente
+}
+.Heading{
+color: white;
+margin-bottom: 200px;
+font-size: xxx-large;
+font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+ margin: 119px;
+
+}
+.Top{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer{
+
+    background-color: rgb(103 235 17 / 70%);
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    bottom: -45px;
+    width: 100%;
+    height: 18vh;
+    border-top: 1px solid black;
+    font-family: serif, cursive;
+    font-size: 22px;
+}
+
+
+.col-3 img{
+    height: 209px;
+    width: 235px;
+    padding-bottom: 15px;
+    margin-right: 40px;
+}
+
+.category-section{
+    margin: 50px 0px;
+    text-align: center;
+}
+.category p{
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: bold;
+    font-family: 'Allura',cursive;
+    color:  rgb(103 235 17 / 70%);
+    font-size: 65px;
+    text-decoration: underline;
+    
+}
+.cat-box{border: 1px solid #000;
+    border-radius: 5px;
+    padding: 15px;
+}
+.col-3 a{text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-family: 'Allura',cursive;
+    color: #000;
+    font-size: 28px;
+    text-decoration: none;
+}
+.col-3 a:hover{
+ text-decoration: underline;
+    color: orangered;
+}
+.middlesection{
+background: url(groceries-1343141_1280.jpg);
+background-repeat: no-repeat;
+width: 100%;
+height: 100vh;
+background-size: cover;
+margin-top: 80px;
+}
+
+/* .middleimg {
+  /*background: url(image/slide.png);
+  background-repeat: no-repeat;
+width: 392px;
+height: 400px;
+background-size: cover;
+margin-top: 90px;
+border : 2px solid black;
+border-radius: 34px;
+margin-left: 94px;
+} */
+.slide-image {
+    border: 3px solid #7d7575;
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
+    height: 60vh;
+    justify-self: center;
+    align-self: center;
+    /* padding-block: 4vh; */
+    border-radius: 6vh;
+    margin-left: 4vw;
+    margin-block: 4vh;
+    transition: opacity 1s ease;
+}
+.middleimg {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+.buy{
+    text-align: center;
+    font-family: 'Allura',cursive;
+    font-size: 54px;
+    font-weight: bold;
+    color:  rgb(103 235 17 / 70%);;
+    margin-top: 5px;
+    margin-bottom: 19px;
+    text-decoration: underline;
+    padding: 10px 0px;
+}
+
+.Buyheading h2{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    margin-bottom: 65px;
+}
+.aboutsection h1{
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: bold;
+    font-family: 'Allura',cursive;
+    color:  rgb(103 235 17 / 70%);
+    font-size: 65px;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+.aboutsection h3{text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+}
+.qa{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+}
+#qaimg{
+    border: 2px solid  rgb(103 235 17 / 70%);;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.title{
+    text-align: center;
+    font-family: 'Allura',cursive;
+    font-size: 54px;
+    font-weight: bold;
+    color:  rgb(103 235 17 / 70%);;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    padding: 10px 0px;
+}
+#mg{
+    border: 2px solid  rgb(103 235 17 / 70%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 376px;
+}
+#mg:hover{
+    color: #fff;
+    border-bottom: 1px solid white;  
+}
+.para{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    margin-left: 10px;
+}
+    
